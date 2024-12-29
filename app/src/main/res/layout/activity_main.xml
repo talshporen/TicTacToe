@@ -1,0 +1,107 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="3"
+        android:columnCount="3"
+        android:padding="8dp">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_1"
+            android:contentDescription="@string/cell_1"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:text="@string/cell_2"
+            android:contentDescription="@string/cell_2"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_3"
+            android:contentDescription="@string/cell_3"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_4"
+            android:contentDescription="@string/cell_4"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_5"
+            android:contentDescription="@string/cell_5"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_6"
+            android:contentDescription="@string/cell_6"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_7"
+            android:contentDescription="@string/cell_7"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_8"
+            android:contentDescription="@string/cell_8"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:text="@string/cell_9"
+            android:contentDescription="@string/cell_9"
+            android:textSize="24sp"
+            android:layout_margin="4dp" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset_button_text"
+        android:visibility="gone"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
